@@ -29,7 +29,7 @@ def process_article_with_openai(api_key, article_content, prompt):
 def main():
     # Ustawienia
     # Klucz API OpenAI
-    api_key = "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"
+    api_key = "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"
     # Nazwa pliku z artykułem na wejściu
     input_file = "artykul.txt"
     # Nazwa pliku wynikowego
