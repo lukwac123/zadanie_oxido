@@ -1,5 +1,6 @@
 import openai
 import os
+from priv import key
 
 
 # Funkcja służąca do wczytywania treści artykułu z pliku.
@@ -29,7 +30,7 @@ def process_article_with_openai(api_key, article_content, prompt):
 def main():
     # Ustawienia
     # Klucz API OpenAI
-    api_key = "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"
+    api_key = key
     # Nazwa pliku z artykułem na wejściu
     input_file = "artykul.txt"
     # Nazwa pliku wynikowego
